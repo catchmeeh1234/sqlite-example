@@ -6,6 +6,7 @@ export class UserUpgradeStatements {
           `CREATE TABLE IF NOT EXISTS users(
           id INTEGER PRIMARY KEY AUTOINCREMENT,
           name TEXT NOT NULL,
+          email TEXT NULL,
           active INTEGER DEFAULT 1
           );`
       ]
